@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Teste</title>
+     <style>
+         body{
+             background-color:whitesmoke;
+         }
+     </style>
+ </head>
+
+ <body>
+     <script>
+         var agencia = window.prompt('Digite a Agência com Digito:')
+         var conta = window.prompt('Digite a Conta com Digito:')
+         var cpfcnpj = window.prompt('Digite o CPF/CNPJ:')
+         var modelo = window.prompt('Digite o Modelo:')
+         var motivo = window.prompt('Digite o Motivo:')
+     </script>
+    <table border="2" style="font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); background-color:rgb(209, 207, 200); border: rgb(167, 125, 125);">
+        <tr>
+            <td>AGÊNCIA</td>
+            <td>CONTA</td>
+            <td>CPF / CNPJ</td>
+            <td>MODELO</td>
+            <td>MOTIVO</td>
+        </tr>
+        <tr>
+            <td><script>document.write(`${agencia}`)</script></td>
+            <td><script>document.write(`${conta}`)</script></td>
+            <td><script>document.write(`${cpfcnpj}`)</script></td>
+            <td><script>document.write(`${modelo}`)</script></td>
+            <td><script>document.write(`${motivo}`)</script></td>
+        </tr>
+    </table>
+ </body>
+
+</html>
