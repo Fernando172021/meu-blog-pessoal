@@ -22,12 +22,13 @@
          var motivo = window.prompt('Digite o Motivo:')
      </script>
     <table border="2" style="font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); background-color:rgb(209, 207, 200); border: rgb(167, 125, 125);">
+        <tbody>
         <tr>
-            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif">AGÊNCIA</td>
-            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif">CONTA</td>
-            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif">CPF / CNPJ</td>
-            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif">MODELO</td>
-            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif">MOTIVO</td>
+            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif;">AGÊNCIA</td>
+            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif;">CONTA</td>
+            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif;">CPF/CNPJ</td>
+            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif;">MODELO</td>
+            <td style="font-family:Verdana, Geneva, Tahoma, sans-serif;">MOTIVO</td>
         </tr>
         <tr>
             <td><script>document.write(`${agencia}`)</script></td> <!--Retornando variaveis para uma tabela HTML5-->
@@ -36,6 +37,7 @@
             <td><script>document.write(`${modelo}`)</script></td>
             <td><script>document.write(`${motivo}`)</script></td>
         </tr>
+        </tbody>
     </table>
  </body>
 
